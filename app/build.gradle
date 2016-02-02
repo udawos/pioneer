@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 21
+    buildToolsVersion '22.0.1'
+
+    sourceSets {
+        main.java.srcDirs += 'C:/Android/PD-classes-master/PD-classes-master/com/watabou'
+    }
+
+
+    defaultConfig {
+        applicationId "com.udawos.pioneer"
+        minSdkVersion 9
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+}

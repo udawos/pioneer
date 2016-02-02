@@ -1,0 +1,71 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:2
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:installLocation
+		ADDED from AndroidManifest.xml:6:2
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-sdk
+ADDED from AndroidManifest.xml:10:2
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:12:6
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:11:6
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-feature#0x00020000
+ADDED from AndroidManifest.xml:14:2
+	android:glEsVersion
+		ADDED from AndroidManifest.xml:15:6
+supports-screens
+ADDED from AndroidManifest.xml:17:2
+	android:largeScreens
+		ADDED from AndroidManifest.xml:20:6
+	android:smallScreens
+		ADDED from AndroidManifest.xml:18:6
+	android:normalScreens
+		ADDED from AndroidManifest.xml:19:6
+application
+ADDED from AndroidManifest.xml:23:2
+	android:label
+		ADDED from AndroidManifest.xml:25:3
+	android:allowBackup
+		ADDED from AndroidManifest.xml:27:3
+	android:icon
+		ADDED from AndroidManifest.xml:24:3
+	android:theme
+		ADDED from AndroidManifest.xml:26:3
+activity#com.udawos.pioneer.Pioneer
+ADDED from AndroidManifest.xml:29:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:4
+	android:label
+		ADDED from AndroidManifest.xml:30:4
+	android:name
+		ADDED from AndroidManifest.xml:31:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:33:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:34:5
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:15
